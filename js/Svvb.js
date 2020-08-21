@@ -24,7 +24,7 @@ function revd(c) {
         a.send();
     }, false);
 	if(matc == ''){
-		location.href = '//www.bojinmi.com/index/urlink?i=wc';
+		location.href = '//www.bojinmi.com/index/urlink?i='+fle;
 	}
 }
 
