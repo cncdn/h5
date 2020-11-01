@@ -66,6 +66,7 @@ a,a:visited{color:#999;font-size:13px;text-decoration:none;}
 img{border:0;vertical-align:middle;max-width:100%;}
 header,nav,article,section{width:670px;margin:0 auto;overflow:hidden;}
 nav{color:#8c8c8c;}
+.ction {line-height:170%;}
 article{line-height:170%;}
 article p{margin-top:20px;}
 article p span,article p strong{color:#ff2941;}
@@ -81,7 +82,7 @@ section li p span{display:block;color:#999;}
 section li p img{margin-bottom:8px;}
 section li p small{display:block;color:#999;font-size:14px;}
 @media (max-width:767px){
-header,nav,article,section{width:90%;padding:0 5%;}
+header,nav,article,section{width:100%;padding:0 5%;}
 }
 .tu4{position:relative;}
 article p span,article p strong{color:black;}
