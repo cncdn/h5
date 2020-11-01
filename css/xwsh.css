@@ -67,7 +67,7 @@ img{border:0;vertical-align:middle;max-width:100%;}
 header,nav,article,section{width:670px;margin:0 auto;overflow:hidden;}
 nav{color:#8c8c8c;}
 .ction {line-height:170%;}
-article{line-height:170%;}
+article{line-height:170%;margin-bottom: 150px;}
 article p{margin-top:20px;}
 article h5{margin:20px auto;}
 article h5 span{color:#607fa6;margin-right:10px;}
