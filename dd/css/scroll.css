@@ -1,0 +1,36 @@
+.carousel_box {
+    width: 100%;
+    text-align: center;
+    color: rgb(58, 58, 225);
+    line-height: 2rem;
+    overflow: hidden;
+    margin: 0 auto 100px auto;
+    max-width: 480px;
+    font-size: 0.8rem;
+    background-color: white;
+}
+.carousel_box h5 {
+    background: rgb(223, 3, 3);
+    height: 2.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.carousel_scroll_box {
+    margin: 0px auto;
+}
+.carousel_content {
+    height: 14rem;
+    overflow: hidden;
+}
+.carousel_scroll {
+    height: 30rem;
+    overflow: hidden;
+}
+.carousel_scroll ul {
+    list-style-type: none;
+}
+
