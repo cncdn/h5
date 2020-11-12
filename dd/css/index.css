@@ -1,0 +1,39 @@
+* { margin: 0px; padding: 0px; }
+html { line-height: 1.6; }
+body { font-family: Microsoft YaHei,Helvetica,sans-serif; background-color: rgb(243, 243, 243); line-height: inherit; }
+.w-data { padding-bottom: 0px; background-color: white; }
+video, img { outline-width: 0px; vertical-align: top; }
+img { text-align: center; max-width: 100%; }
+ul, li { list-style: outside none none; }
+.w-data { max-width: 640px; font-size: 16px; line-height: 1.5em; margin: auto; }
+br.none-show { display: none; }
+.pop_bg_Mask { position: fixed; top: 0px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0%; z-index: 99; display: none; margin: 0px auto; }
+.bottom_float { position: fixed; left: auto; bottom: 0px; z-index: 98; height: auto; width: 100%; max-width: 640px ! important; }
+.popout_close_icon { position: absolute; right: 8px; top: 0px; width: 7.5%; height: 7.5%; }
+
+.popout_order { position: fixed; z-index: 100; width: 90%; height: auto; max-width: 480px ! important; max-height: 410px ! important; top: 0px; left: 0px; right: 0px; bottom: 0px; display: none; margin: auto; }
+#order .popout_close_icon { display: none; }
+.order_title { font-size: 18px; font-weight: bold; height: 40px; line-height: 40px; overflow: hidden; text-align: center; }
+.or_form { margin: 10px 0px; padding: 10px; font-size: 1rem; }
+.or_form label { width: 5.5rem; display: inline-block; }
+.or_form_2 { margin: 15px 10%; font-size: 120%; font-weight: 500; }
+.or_form_3 { margin: 0px 5% 8px 10%; }
+.or_form_3 input[type="text"] { width: 60%; height: 25px; border: 1px solid rgb(196, 196, 196); }
+.or_form_3 span { margin-left: 10px; }
+.or_form_5 { margin: 0px 5% 8px 10%; }
+.or_form_5 label { width: 10rem; }
+.or_form_5 select { border: 1px solid rgb(130, 130, 130); width: 65%; height: 28px; margin: 0px auto; display: block; }
+@media screen and (max-width: 360px) {
+	.or_form_3 { margin: 0px 5% 8px 0px; }
+	.or_form_5 { margin: 0px 5% 8px 0px; }
+	.or_form_3 input[type="text"] { width: 55%; }
+}
+.order_tips { font-size: 1rem; }
+#anniu, #popout_anniu { margin: 15px 25%; height: 30px; width: 35%; border-radius: 5px; border: 1px solid rgb(241, 241, 241); }
+.order { width: 100%; margin: 0px auto; overflow: hidden; }
+.order form { max-width: 480px; margin: 0px auto; }
+.carousel_box { font-size: 0.8rem; line-height: 2rem; color: rgb(58, 58, 225); overflow: hidden; width: 100%; text-align: center; }
+.carousel_box h5 { background: rgb(223, 3, 3) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-weight: bold; font-size: 1.2rem; height: 2.2rem; line-height: 2.2rem; text-align: center; margin-bottom: 0.5rem; }
+.carousel_scroll_box { margin: 0px auto; }
+.carousel_content { height: 14rem; overflow: hidden; }
+.carousel_scroll { height: 30rem; overflow: hidden; }
